@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&family=Prompt:ital@1&family=Raleway:wght@700&family=Rambla&family=Signika+Negative:wght@600&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Caption&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <script src="js/all.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Harmali Gastro</title>
+  </head>
+
+  <body>
+    <header class="heading">
+      <div class="logo_container">
+        <img class="logo" src="img/logo.png" alt="" />
+      </div>
+      <div class="burger_container">
+        <div class="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+      <div class="infos_container">
+        <div class="infos info_align">
+          <i class="fas fa-map-marker-alt x4"></i>
+          <div class="localisation">
+            <h4>clinique RACHA</h4>
+            <h4>sise ancienne djezzy en face Hôtel sophie BOUIRA CP: 10000</h4>
+          </div>
+        </div>
+        <div class="infos info_align">
+          <i class="fas fa-phone-square-alt x4"></i>
+          <div class="localisation">
+            <h4>Tél:0660818412</h4>
+            <h4>Tél:0551565845</h4>
+          </div>
+        </div>
+
+        <div class="infos info_align">
+          <h4
+            style="
+              font-size: 20px;
+              margin-right: 10px;
+              font-family: 'Prompt', sans-serif;
+            "
+          >
+            Suivez-Nous
+          </h4>
+          <a href="https://www.facebook.com/sofianeharmali"
+            ><i style="color: #19336d" class="fab fa-facebook-square x4"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <div class="sidebar">
+      <div class="nav_item nitem2">
+        <a href=""><i class="fas fa-home"></i> Acceuil</a>
+      </div>
+      <div class="nav_item nitem2">
+        <a href="presentation.html"
+          ><i class="fas fa-chart-pie"></i> Services</a
+        >
+      </div>
+      <div class="nav_item nitem2">
+        <i class="fas fa-paper-plane"></i> Contact
+      </div>
+      <div class="nav_item nitem2"><i class="fas fa-clock"></i> Horraires</div>
+      <div class="nav_item nitem2">
+        <i class="fas fa-map-marker-alt"></i> Localisation
+      </div>
+    </div>
+    <nav class="navbar">
+      <div class="nav_item nitem">
+        <a href=""><i class="fas fa-home"></i> Acceuil</a>
+      </div>
+      <div class="nav_item nitem">
+        <a href="presentation.html"
+          ><i class="fas fa-chart-pie"></i> Services</a
+        >
+      </div>
+      <div class="nav_item nitem">
+        <i class="fas fa-paper-plane"></i> Contact
+      </div>
+      <div class="nav_item nitem"><i class="fas fa-clock"></i> Horraires</div>
+      <div class="nav_item nitem">
+        <i class="fas fa-map-marker-alt"></i> Localisation
+      </div>
+    </nav>
+    <section class="main">
+      <div class="main_container">
+        <h1 class="main_title">Gastro</h1>
+        <h1 style="margin-top: -20px" class="main_title">entérologie</h1>
+        <div class="ligne"></div>
+        <h1 class="second_title">endoscopie digestive</h1>
+        <p class="paragraph">
+          -Consultation gastro-entérologie.<br />
+          -Consultation proctologie médicale.<br />
+          -Consultation hépatologie.<br />
+          -Échographie abdominale.<br />
+          -Endoscopie digestive haute (FOGD).<br />
+          -Endoscopie digestive basse (RECTOSCOPIE / COLOSCOPIE).<br />
+        </p>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="form">
+        <form name="email " method="POST" action="mailer.php">
+          <h1 class="form_title">
+            <i class="far fa-envelope"></i> contactez nous
+          </h1>
+          <div class="form_container">
+            <label for="">Email :</label>
+            <input name="email" type="text" required />
+            <label for="">sujet :</label>
+            <input name="sujet" type="text" required />
+            <label for="">message :</label>
+            <textarea
+              style="
+                margin: 10px;
+                border: 1px solid #000;
+                height: 100px;
+                background-color: rgba(255, 255, 255, 0.616);
+              "
+              name="message"
+              id="txtarea"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+            <input class="btn" type="submit" value="Envoyer"  />
+          </div>
+        </form>
+      </div>
+      <div class="Horraires">
+        <h1 style="font-family: 'Rambla', sans-serif" class="form_title">
+          <i class="far fa-clock"></i> HEURES DE TRAVAIL
+        </h1>
+        <div class="horrairest">
+          <div class="horraaire_item">
+            <h2 class="hore">Samedi (Pause entre 13h et 14h)</h2>
+            <h2 class="hore">08:30-17:00</h2>
+          </div>
+          <div class="horraaire_item">
+            <h2 class="hore">Dimanche (Pause entre 13h et 14h)</h2>
+            <h2 class="hore">08:30-17:00</h2>
+          </div>
+          <div class="horraaire_item">
+            <h2 class="hore">Lundi (Pause entre 13h et 14h)</h2>
+            <h2 class="hore">08:30-17:00</h2>
+          </div>
+          <div class="horraaire_item">
+            <h2 class="hore">Mardi (Pause entre 13h et 14h)</h2>
+            <h2 class="hore">08:30-17:00</h2>
+          </div>
+          <div class="horraaire_item">
+            <h2 class="hore">Mercredi (Pause entre 13h et 14h)</h2>
+            <h2 class="hore">08:30-17:00</h2>
+          </div>
+          <div class="horraaire_item">
+            <h2 class="hore">Jeudi (Pause entre 13h et 14h)</h2>
+            <h2 class="hore">08:30-17:00</h2>
+          </div>
+        </div>
+        <div class="pic_container">
+          <img src="img/gastro2.png" alt="" />
+          <img src="img/digestif.png" alt="" />
+          <img src="img/maladie.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="map" id="map">
+      <h1><i class="fas fa-map-marked-alt"></i> Localisation</h1>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3212.2324939770806!2d3.8901724147669055!3d36.379365398975686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDIyJzQ1LjciTiAzwrA1MyczMi41IkU!5e0!3m2!1sen!2sdz!4v1601132037013!5m2!1sen!2sdz"
+        width="80%"
+        height="450"
+        frameborder="0"
+        style="border: 0"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+      >
+      </iframe>
+    </section>
+    <footer>
+      <div class="foot">
+        <h2><i class="fas fa-phone"></i> 066081812</h2>
+        <h2><i class="fas fa-envelope"></i> drharmaligastro@gmail.com</h2>
+        <h2>
+          <i class="fas fa-map-marker-alt"></i> Clinique RACHA Sise Ancienne
+          Djezzy En Face Hôtel Sophie BOUIRA CP: 10000
+        </h2>
+        <h2></h2>
+      </div>
+      <div class="foot">
+        <h2>Copyright ©2020 all rights reserved</h2>
+        <h2>
+          Designed By :
+          <a href="https://www.facebook.com/fares.harmali/">Fares Harmali</a>
+        </h2>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
